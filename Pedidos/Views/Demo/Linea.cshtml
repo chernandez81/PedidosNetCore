@@ -1,0 +1,38 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div id="panel">
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+    document.getElementById("panel").setAttribute("data-pdf", "GraficaLinea.pdf");
+    document.getElementById("panel").setAttribute("data-titulo", "Grafica de Lineas");
+});
+
+var xValues = JSON.parse('@Html.Raw(Json.Serialize(ViewBag.xValues))');
+var yValues = JSON.parse('@Html.Raw(Json.Serialize(ViewBag.yValues))');;
+
+new Chart("myChart", {
+  type: "line",
+  data: {
+    labels: xValues,
+    datasets: [{
+      fill: false,
+      lineTension: 0,
+      backgroundColor: "rgba(0,0,255,1.0)",
+      borderColor: "rgba(0,0,255,0.1)",
+      data: yValues
+    }]
+  },
+  options: {
+    legend: {display: false},
+    scales: {
+      yAxes: [{ticks: {min: 6, max:16}}],
+    }
+  }
+});
+</script>

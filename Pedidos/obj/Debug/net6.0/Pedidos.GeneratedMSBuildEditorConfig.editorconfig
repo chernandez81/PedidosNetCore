@@ -15,6 +15,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Proyectos NET\CursoPedidos\PedidosNetCore\Pedidos
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Proyectos NET/CursoPedidos/PedidosNetCore/Pedidos/Views/Demo/Barra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xCYXJyYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos NET/CursoPedidos/PedidosNetCore/Pedidos/Views/Demo/Linea.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xMaW5lYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Proyectos NET/CursoPedidos/PedidosNetCore/Pedidos/Views/Demo/Pastel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVtb1xQYXN0ZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Proyectos NET/CursoPedidos/PedidosNetCore/Pedidos/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
